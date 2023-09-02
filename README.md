@@ -1,4 +1,4 @@
-## FastCopy
+## FastCopy ([Freeware](#license))
 
 #### Deutsch
 Dies ist die alte, kostenlose Version 4.x.x des Tools ["FastCopy"](https://fastcopy.jp/en/) von ["SHIROUZU Hiroaki"](https://github.com/shirouzu/), leicht ins Deutsche übersetzt mit einem moderneren Iconset und leicht geänderten Dialogdimensionen, um diese an die viel längeren Strings der deutschen Sprache anzupassen. Für die Übersetzung habe ich die englische Resourcen-Tabelle "1033" verwendet. Die deutsche Übersetzung ist im Detail nicht 100%-ig; ich habe nur das Hauptfenster und die String-Ressourcen übersetzt.
