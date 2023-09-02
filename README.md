@@ -1,11 +1,12 @@
 ## FastCopy
 
 #### Deutsch
-Dies ist die alte, kostenlose Version 4.x.x des Tools ["FastCopy"](https://fastcopy.jp/en/) von ["SHIROUZU Hiroaki"](https://github.com/shirouzu/), leicht ins Deutsche übersetzt mit einem moderneren Iconset und leicht geänderten Dialogdimensionen, um diese an die viel längeren Strings der deutschen Sprache anzupassen. Für die Übersetzung habe ich die englische Resourcen-Tabelle "1033" verwendet. Die deutsche Übersetzung ist im Detail nicht 100%-ig; Ich habe nur das Hauptfenster und die String-Ressourcen übersetzt ...
+Dies ist die alte, kostenlose Version 4.x.x des Tools ["FastCopy"](https://fastcopy.jp/en/) von ["SHIROUZU Hiroaki"](https://github.com/shirouzu/), leicht ins Deutsche übersetzt mit einem moderneren Iconset und leicht geänderten Dialogdimensionen, um diese an die viel längeren Strings der deutschen Sprache anzupassen. Für die Übersetzung habe ich die englische Resourcen-Tabelle "1033" verwendet. Die deutsche Übersetzung ist im Detail nicht 100%-ig; ich habe nur das Hauptfenster und die String-Ressourcen übersetzt.
 
 #### FastCopy ist großartig ...
 - Es ist die schnellste Kopier-/Sicherungssoftware unter Windows.
 - Es unterstützt UNICODE und grössere Dateipfadnamen-Längen als **MAX_PATH (260 Zeichen)**.
+- **Sehr wichtig bei der Administration: es kopiert im Kommandozeilenmodus als GUI nahezu unsichtbar mit einem Icon in der Taskleiste, was für den/die Anwender/in ansprechender ist als ein Konsolen-Tool mit einem Konsolenfenster !**
 - Es werden automatisch unterschiedliche Methoden ausgewählt, je nachdem ob sich "Quelle" und "Zielverzeichnis" auf derselben oder einer anderen Festplatte (oder SSD) befinden.
 - Lesen und Schreiben von unterschiedlichen HDD wird jeweils parallel von separaten Threads verarbeitet.
 - Von derselben HDD wird der Prozess verarbeitet, bis der große Puffer voll ist. Wenn der große Puffer gefüllt ist, wird der Schreibvorgang gestartet und in großen Mengen verarbeitet.
@@ -17,11 +18,12 @@ Dies ist die alte, kostenlose Version 4.x.x des Tools ["FastCopy"](https://fastc
 – In Version 3.0 oder höher wurde die INI Konfig-Datei von FastCopy von "FastCopy.ini" in **"FastCopy2.ini"** umbenannt.
 
 #### English
-This is the old, free version 4.x.x of the tool ["FastCopy"](https://fastcopy.jp/en/) by ["SHIROUZU Hiroaki"](https://github.com/shirouzu/), slightly translated into German with a more modern iconset and slightly changed dialog dimensions to fit the much longer strings of the German language. For the translation I used the English resource table "1033". The German translation is not 100% accurate in detail; I only translated the main window and string resources...
+This is the old, free version 4.x.x of the tool ["FastCopy"](https://fastcopy.jp/en/) by ["SHIROUZU Hiroaki"](https://github.com/shirouzu/), slightly translated into German with a more modern iconset and slightly changed dialog dimensions to fit the much longer strings of the German language. For the translation I used the English resource table "1033". The German translation is not 100% accurate in detail; i only translated the main window and string resources.
 
 #### FastCopy is awesome ...
 - It is the fastest Copy/Backup Software on Windows.
 - It supports UNICODE and over **MAX_PATH (260 characters)** file pathname-lengths.
+- **Very important for administration: it copies almost invisibly in command line mode as a GUI with an icon in the taskbar, which is more appealing to the user than a console tool with a console window !**
 - It automatically selects different methods according to whether "Source" and "DestDir" are in the same or different HDD (or SSD).
 - Diff HDD Reading and writing are processed respectively in parallel by separate threads.
 - Same HDD Reading is processed until the big buffer fills. When the big buffer is filled, writing is started and processed in bulk.
